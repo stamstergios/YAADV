@@ -6,7 +6,6 @@ const serverResponse = require('../../NEW-webb-server').serverResponse;
 const SCHEMA_ROOT_DIR = "SCHEMA_ROOT_DIR";
 // const G_MAX_SUBDOMAIN_LENGTH = 50;
 // const G_MIN_SUBDOMAIN_LENGTH = 5;
-// const G_FORBIDDEN_SUBDOMAIN_SUBSTRINGS = 'panotea|shit|fuck';
 const G_SCHEMA_STOP_CHARACTER = "?";
 // const CONSTRAINTS_LIST_REQUIRED = ['allow-empty', 'length-limits', 'allow-whitespace'];
 // const CONSTRAINTS_LIST_OPTIONAL = ['--allow-unicode', '--whitelist-special-characters', '--letters-required', '--custom-regex'];

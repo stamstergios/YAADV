@@ -1,0 +1,37 @@
+{
+	"?subdomain": {
+		"allow-empty": false,
+		"length-limits": [ 5, 63 ],
+		"allow-whitespace": false,
+		"--allow-unicode": false,
+		"--whitelist-special-characters": [ "-" ],
+		"--letters-required": true,
+		"--custom-regex": null
+	},
+	"?password": {
+		"allow-empty": false,
+		"length-limits": [ 2, 64 ],
+		"allow-whitespace": true,
+		"--allow-unicode": true,
+		"--whitelist-special-characters": "ALL",
+		"--letters-required": true,
+		"--custom-regex": null
+	},
+	"inputs": {
+		"?~shop-full-name": {
+			"allow-empty": false,
+			"length-limits": [ 5, 63 ],
+			"allow-whitespace": false,
+			"--allow-unicode": false,
+			"--whitelist-special-characters": [ "-" ],
+			"--letters-required": true,
+			"--custom-regex": null
+		},
+		"?~date": {
+			"allow-empty": false,
+			"length-limits": [ 5, 63 ],
+			"allow-whitespace": false
+		}
+
+	}
+}

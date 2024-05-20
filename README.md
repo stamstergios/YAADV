@@ -31,7 +31,7 @@ YAADV is written in ES6 Javascript for use as a middleware in NodeJs projects, b
 		"?name": {
 			"allow-empty": false,
 			"length-limits": [ 5, 63 ],
-			"allow-whitespace": false,
+			"allow-whitespace": true,
 			"--allow-unicode": false,
 			"--whitelist-special-characters": [ "-" ],
 			"--letters-required": true,
@@ -54,7 +54,7 @@ The supported request could be this:
   "subdomain":"mycool-subdomain",
   "password": "thi$isMyP4ssword",
   "inputs":{
-      "name":"myname"
+      "name":"my name"
   }
 }
 ```

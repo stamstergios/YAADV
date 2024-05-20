@@ -58,6 +58,8 @@ The supported request could be this:
   }
 }
 ```
-"~", for instance, denotes an optional field.
+"~", denotes an optional field.
 
 **WARNING** this project is under very heavy, albeit sporadic development. Use at your own risk! Bugs discovered may not be removed in this repository.
+
+TODO: Documentation

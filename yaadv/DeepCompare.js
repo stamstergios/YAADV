@@ -1,5 +1,4 @@
 //For api validation, in the following explanations, o1 is the schema object and o2 is the test object from the actual api request
-//(c) Stergios Stamatiou - Mar 2023
 
 class DeepCompare {
 

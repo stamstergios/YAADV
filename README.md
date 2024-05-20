@@ -3,7 +3,7 @@ Yet Another Api Descriptor-Validator | Describe and Validate your backend endpoi
 
 Your entire tree of API endpoinds described using good old folders and files. (And a custom 'language' for use inside JSON files)
 
-YAADV is written in ES6 Javascript for use as a middleware in NodeJs projects, but can easily be ported to other languages as well.
+YAADV is written in ES6 Javascript for use as an Express.js middleware in NodeJs projects, but can easily be ported to other languages as well.
 
 ## Example:
 
